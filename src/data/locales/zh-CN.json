@@ -37,10 +37,7 @@
     "copyright": "© Copyright 2026 北京宏图逸轩商贸有限公司",
     "followUs": "关注我们",
     "companyName": "北京宏图逸轩商贸有限公司",
-    "addressLines": [
-      "北京市怀柔区怀北镇怀北路316号",
-      "1406室"
-    ],
+    "addressLines": ["北京市怀柔区怀北镇怀北路316号", "1406室"],
     "emailLabel": "给 Schoolive 发送邮件"
   }
 }

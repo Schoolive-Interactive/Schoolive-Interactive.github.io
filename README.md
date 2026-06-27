@@ -12,12 +12,12 @@ This package migrates the Schoolive public website from Mobirise/Bootstrap-gener
 
 ## Routes
 
-| Locale | Route |
-| --- | --- |
-| English | `/` |
-| Simplified Chinese | `/zh-CN/` |
+| Locale                              | Route     |
+| ----------------------------------- | --------- |
+| English                             | `/`       |
+| Simplified Chinese                  | `/zh-CN/` |
 | Hong Kong/Macau Traditional Chinese | `/zh-HK/` |
-| Taiwan Traditional Chinese | `/zh-TW/` |
+| Taiwan Traditional Chinese          | `/zh-TW/` |
 
 Legacy `.html` compatibility pages and browser-language detection are intentionally not implemented in this first migration.
 

@@ -37,11 +37,7 @@
     "copyright": "© Copyright 2026 北京宏图逸轩商贸有限公司",
     "followUs": "Follow us",
     "companyName": "北京宏图逸轩商贸有限公司",
-    "addressLines": [
-      "316 HuaiBei Rd",
-      "Room 1406",
-      "Huairou District, Beijing, China"
-    ],
+    "addressLines": ["316 HuaiBei Rd", "Room 1406", "Huairou District, Beijing, China"],
     "emailLabel": "Email Schoolive"
   }
 }

@@ -12,7 +12,7 @@ export default defineConfig({
     __ASTRO_IMAGE_OPTIONS__: 'readonly',
   },
   rules: {
-    'eqeqeq': 'error',
+    eqeqeq: 'error',
     'no-console': 'warn',
     'no-debugger': 'error',
     'no-duplicate-imports': 'error',
