@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "Schoolive - 虛擬社團企劃",
+    "description": "Schoolive 是建立於 2019 年的虛擬社團企劃，創作網際網路新媒體作品並傳播有價值的知識。"
+  },
+  "nav": {
+    "top": "首頁",
+    "introduction": "簡介",
+    "members": "成员",
+    "language": "Language"
+  },
+  "languageNames": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-HK": "港澳繁體",
+    "zh-TW": "台灣正體"
+  },
+  "hero": {
+    "title": "Schoolive",
+    "subtitle": "虛擬社團企劃",
+    "cta": "Bilibili主頁"
+  },
+  "intro": {
+    "title": "社團簡介",
+    "body": "我們建立於2019年，宗旨在於創作優質的網際網路新媒體作品，包括影片、直播、藝術作品等。我們不僅產出娛樂向的內容，同時也提供學術公益向的知識，如公開課等。我們的使命是透過構建一個鮮活的虛擬世界，來向大眾傳播有價值的知識，給社會帶來積極的影響。"
+  },
+  "members": {
+    "title": "給我們的成員點個關注吧！",
+    "cardLabel": "開啟 {name} 的 Bilibili 主頁"
+  },
+  "feedback": {
+    "title": "您的寶貴意見對我們很重要！",
+    "description": "請透過 Email 與我們聯繫。",
+    "mailtoLabel": "寄送 Email"
+  },
+  "footer": {
+    "copyright": "© Copyright 2026 北京宏图逸轩商贸有限公司",
+    "followUs": "關注我們",
+    "companyName": "北京宏图逸轩商贸有限公司",
+    "addressLines": [
+      "北京市懷柔區懷北鎮懷北路316號",
+      "1406室"
+    ],
+    "emailLabel": "寄信給 Schoolive"
+  }
+}

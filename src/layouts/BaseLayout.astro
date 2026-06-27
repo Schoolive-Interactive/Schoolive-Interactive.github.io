@@ -1,0 +1,41 @@
+---
+import 'virtual:uno.css';
+import '../styles/global.css';
+import { alternateLinks, htmlLang } from '../lib/i18n';
+import { localePath } from '../lib/routes';
+import type { Locale, LocaleCopy } from '../lib/locale-types';
+
+interface Props {
+  locale: Locale;
+  copy: LocaleCopy;
+}
+
+const { locale, copy } = Astro.props;
+const site = Astro.site ?? new URL('https://schoolive-interactive.github.io');
+const canonical = new URL(localePath(locale), site).toString();
+const alternates = alternateLinks(site);
+---
+
+<!doctype html>
+<html lang={htmlLang(locale)}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{copy.meta.title}</title>
+    <meta name="description" content={copy.meta.description} />
+    <link rel="canonical" href={canonical} />
+    {alternates.map((link) => <link rel="alternate" hreflang={link.locale} href={link.href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL('/', site).toString()} />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <meta property="og:title" content={copy.meta.title} />
+    <meta property="og:description" content={copy.meta.description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900 antialiased">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Schoolive - Virtual Streamer Society",
+    "description": "Schoolive is a virtual streamer society founded in 2019 to create media works, public lectures, and a positive virtual world."
+  },
+  "nav": {
+    "top": "Pagetop",
+    "introduction": "Introduction",
+    "members": "Members",
+    "language": "Language"
+  },
+  "languageNames": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-HK": "港澳繁體",
+    "zh-TW": "台灣正體"
+  },
+  "hero": {
+    "title": "Schoolive",
+    "subtitle": "Virtual Streamer Society",
+    "cta": "Bilibili Homepage"
+  },
+  "intro": {
+    "title": "Introduction",
+    "body": "Founded in 2019, Schoolive aimed to create outstanding media works in all forms. We not only produce entertainment-oriented content, but also deliver public academic lectures in a creative and interesting way. It is our goal to share knowledge to the public and bring positive impact to the society via building an attractive virtual world."
+  },
+  "members": {
+    "title": "Follow our members!",
+    "cardLabel": "Open {name}'s Bilibili profile"
+  },
+  "feedback": {
+    "title": "Your opinion is important to us!",
+    "description": "Please contact us by email.",
+    "mailtoLabel": "Email us"
+  },
+  "footer": {
+    "copyright": "© Copyright 2026 北京宏图逸轩商贸有限公司",
+    "followUs": "Follow us",
+    "companyName": "北京宏图逸轩商贸有限公司",
+    "addressLines": [
+      "316 HuaiBei Rd",
+      "Room 1406",
+      "Huairou District, Beijing, China"
+    ],
+    "emailLabel": "Email Schoolive"
+  }
+}

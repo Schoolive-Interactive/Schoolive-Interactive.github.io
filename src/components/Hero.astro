@@ -1,0 +1,39 @@
+---
+import social from '../data/social.json';
+import type { LocaleCopy } from '../lib/locale-types';
+
+interface Props {
+  copy: LocaleCopy;
+}
+
+const { copy } = Astro.props;
+---
+
+<section id="top" class="relative isolate min-h-[calc(100vh-4.5rem)] overflow-hidden bg-brand-ink text-white">
+  <img
+    src="/assets/images/backgrounds/hero-schoolive.png"
+    alt=""
+    class="absolute inset-0 -z-20 h-full w-full object-cover opacity-70"
+    aria-hidden="true"
+  />
+  <div class="absolute inset-0 -z-10 bg-gradient-to-br from-slate-950/85 via-brand-ink/72 to-brand/55"></div>
+  <div class="site-container flex min-h-[calc(100vh-4.5rem)] items-center py-24">
+    <div class="max-w-3xl">
+      <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.24em] text-white/80 backdrop-blur">
+        <span class="h-2 w-2 rounded-full bg-brand"></span>
+        Virtual Media Project
+      </p>
+      <h1 class="text-6xl font-extrabold leading-none tracking-tight md:text-8xl">{copy.hero.title}</h1>
+      <p class="mt-6 text-3xl font-bold text-white/90 md:text-5xl">{copy.hero.subtitle}</p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a class="btn-primary" href={social.bilibili.url} target="_blank" rel="noopener noreferrer">
+          <span class="i-simple-icons-bilibili" aria-hidden="true"></span>
+          {copy.hero.cta}
+        </a>
+        <a class="btn-secondary" href="#introduction">
+          {copy.nav.introduction}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

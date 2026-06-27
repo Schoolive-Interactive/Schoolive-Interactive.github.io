@@ -1,0 +1,25 @@
+---
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Intro from '../components/Intro.astro';
+import MemberGrid from '../components/MemberGrid.astro';
+import FeedbackPlaceholder from '../components/FeedbackPlaceholder.astro';
+import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLocaleData } from '../lib/i18n';
+import { defaultLocale } from '../lib/routes';
+
+const locale = defaultLocale;
+const copy = getLocaleData(locale);
+---
+
+<BaseLayout locale={locale} copy={copy}>
+  <Header locale={locale} copy={copy} />
+  <main>
+    <Hero copy={copy} />
+    <Intro copy={copy} />
+    <MemberGrid copy={copy} />
+    <FeedbackPlaceholder copy={copy} />
+  </main>
+  <Footer copy={copy} />
+</BaseLayout>

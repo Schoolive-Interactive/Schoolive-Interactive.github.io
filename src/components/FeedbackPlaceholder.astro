@@ -1,0 +1,26 @@
+---
+import social from '../data/social.json';
+import type { LocaleCopy } from '../lib/locale-types';
+
+interface Props {
+  copy: LocaleCopy;
+}
+
+const { copy } = Astro.props;
+---
+
+<section id="feedback" class="relative overflow-hidden bg-brand-ink py-24 text-white md:py-32">
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(64,176,191,0.35),transparent_32%),radial-gradient(circle_at_80%_50%,rgba(101,146,230,0.3),transparent_35%)]"></div>
+  <div class="site-container relative">
+    <div class="glass-card mx-auto max-w-3xl p-8 text-center text-slate-900 md:p-12">
+      <span class="i-fa6-solid-envelope mx-auto mb-5 block text-5xl text-brand-deep" aria-hidden="true"></span>
+      <h2 class="text-3xl font-extrabold tracking-tight md:text-5xl">{copy.feedback.title}</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">{copy.feedback.description}</p>
+      <!-- Feedback backend intentionally deferred in the first migration. Do not post to Mobirise. -->
+      <a class="btn-primary mt-8" href={social.email.url}>
+        <span class="i-fa6-solid-paper-plane" aria-hidden="true"></span>
+        {copy.feedback.mailtoLabel}
+      </a>
+    </div>
+  </div>
+</section>

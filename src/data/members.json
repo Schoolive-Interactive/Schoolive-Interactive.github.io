@@ -1,0 +1,26 @@
+[
+  {
+    "id": "yuki",
+    "name": "绪山雪Yuki",
+    "bilibiliUrl": "https://space.bilibili.com/358054682",
+    "image": "/assets/images/members/yuki.webp"
+  },
+  {
+    "id": "xiaobai",
+    "name": "不是蜡笔小新的小白奥",
+    "bilibiliUrl": "https://space.bilibili.com/4638392",
+    "image": "/assets/images/members/xiaobai.webp"
+  },
+  {
+    "id": "yuyu",
+    "name": "玉玉_yuyu",
+    "bilibiliUrl": "https://space.bilibili.com/1311044176",
+    "image": "/assets/images/members/yuyu.webp"
+  },
+  {
+    "id": "hunter",
+    "name": "猎刃御狩Hunter",
+    "bilibiliUrl": "https://space.bilibili.com/354218854",
+    "image": "/assets/images/members/hunter.webp"
+  }
+]
